@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Clock</title>
+</head>
+<body>
+<h1>TimeCard</h1>
+
+
+
+
+<h3> Time Stamp</h3>
+<hr>
+<form action="{% url 'index' %}" method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button>Submit</button>
+</form>
+</body>
+</html>
