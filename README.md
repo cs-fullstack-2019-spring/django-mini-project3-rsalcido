@@ -1,3 +1,7 @@
+
+### POINTS: 0
+### KEY: You were on right track but it doesn't run. Hitting the home page returns an error. Srry. 'The view mini_projectapp.views.index didn't return an HttpResponse object. It returned None instead.'
+
 # Mini-Project Django
 
 THIS IS A SOLO PROJECT.
